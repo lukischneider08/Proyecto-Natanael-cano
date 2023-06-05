@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.colorblanco {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, black, darkgoldenrod);
+  height: auto;
+  width: auto;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+header a{
+  padding-left: 11px;
+  padding-right: 11px;
+  transition: background-color .5s;
+}
+header nav {
+  padding-top: 25px;
+}
+
+header a:hover{
+background-color: gold;
+border-radius: 15px;
+}
+
+
+
+.logo img {
+  width: 90px;
+  justify-content: center;
+  padding-top: 10px;
+  
+}
+
+main {
+background: linear-gradient(180deg, darkgoldenrod, black, darkgoldenrod);
+min-height: 80vh;
+}
+
+main section{
+  padding: 40px;
+  text-align: center;
+}
+
+main article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main article img{
+  width: 80vw;
+}
+
+
+.maintour section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+ 
+}
+.maintour section p{
+  text-align: center;
+  padding: 25px;}
+
+.maintour section img{
+  width: 80vw;
+  border-radius: 10px;
+  object-fit: cover;
+  
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(180deg, darkgoldenrod, black);
+  height: auto;
+  
+}
+
+footer a {
+  font-size: 40px;
+  width: auto;
+  height: auto;
+
+}
+
+footer a :hover{
+  font-size: 52px;
+  background-color: gold;
+  border-radius: 50px;
+  transition: background-color .7s;
+
+}
+
+
+
+.maindiscografia{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+
+}
+
+.maindiscografia a {
+  width: 200px;
+  height: 200px;
+  position: relative;
+
+}
+
+.maindiscografia img{
+  border: 0.1px solid whitesmoke;
+  display: block;
+  width: 100%;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:2;
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+.maindiscografia a:hover .overlay {
+  opacity: 1;
+}
+
+.maingaleria{
+  padding: 40px;
+}
+
+.sectiongaleria {
+
+  display: flex;
+  max-width: 100%;
+  height: 100vh;
+  padding: 1px;
+}
+
+.sectiongaleria img {
+
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.sectiongaleria img:hover {
+
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+
+}
