@@ -106,8 +106,10 @@ main article img{
 
 .mainperfil{
     display: flex;
+    justify-content: center;
 
 }
+
 .mainperfil section h1{
   padding-bottom: 5px
 }
