@@ -120,6 +120,12 @@ main article img{
   padding: 70px;
 }
 
+.mainperfil section div iframe{
+width: auto;
+padding: 15px;
+  
+}
+
 .mainperfil section p {
   padding-top: 22px;
 }
