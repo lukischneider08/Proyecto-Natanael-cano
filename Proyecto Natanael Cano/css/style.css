@@ -86,31 +86,6 @@ main article img{
   
 }
 
-.mainperfil{
-    display: flex;
-
-}
-.mainperfil section h1{
-  padding-bottom: 5px
-}
-
-.mainperfil section{
-  flex-direction: column;
-  align-items: center;
-  padding: 70px;
-}
-
-.mainperfil section p {
-  padding-top: 22px;
-}
-
-.mainperfil section img{
-  width: 350px;
-  padding: 2px;
-  border-radius: 20px;
-  background-color: aliceblue;
-}
-
 
 footer {
   display: flex;
