@@ -25,8 +25,8 @@ header {
 }
 
 header a{
-  padding-left: 11px;
-  padding-right: 11px;
+  padding-left: 7px;
+  padding-right: 6px;
   transition: background-color .5s;
 }
 header nav {
@@ -49,41 +49,68 @@ border-radius: 15px;
 
 main {
 background: linear-gradient(180deg, darkgoldenrod, black, darkgoldenrod);
-min-height: 80vh;
 }
 
 .mainindex{ color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   padding-top: 10px;
+}
+
+.mainperfil{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.maintour{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.maindiscografia{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 10px;
+
+}
+.maingaleria{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-top: 10px;
 
 }
 
-main section{
+
+.mainindex section{
   padding: 40px;
   text-align: center;
 }
 
-main article{
+.mainindex article{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-main article img{
-  width: 80vw;
-}
-
-.maintour{
-  display: flex;
-  
-
+.mainindex article img{
+  width: 300px;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 15px;
 }
 
 .maintour img{
-  
-
-  width: 80vw;
+  width: 300px;
+  padding: 2px;
+  border-radius: 20px;
+  margin: 20px;
 }
 
 .maintour section{
@@ -104,12 +131,6 @@ main article img{
   
 }
 
-.mainperfil{
-    display: flex;
-    justify-content: center;
-
-}
-
 .mainperfil section h1{
   padding-bottom: 5px
 }
@@ -127,7 +148,13 @@ padding: 15px;
 }
 
 .mainperfil section p {
-  padding-top: 22px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+ 
+  
 }
 
 .mainperfil section img{
@@ -163,7 +190,7 @@ footer a :hover{
 
 
 
-.maindiscografia{
+.maindiscografia section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -204,11 +231,11 @@ footer a :hover{
   opacity: 1;
 }
 
-.maingaleria{
+.divgaleria{
   padding: 40px;
 }
 
-.sectiongaleria {
+.divgaleria section {
 
   display: flex;
   max-width: 100%;
