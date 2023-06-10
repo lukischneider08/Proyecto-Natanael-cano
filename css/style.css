@@ -54,7 +54,7 @@ background: linear-gradient(180deg, darkgoldenrod, black, darkgoldenrod);
 .mainindex{ color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 1px;
 }
 
 .mainperfil{
