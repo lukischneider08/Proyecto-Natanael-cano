@@ -263,5 +263,10 @@ footer a :hover{
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
 
+
+.maindiscografia audio{
+  padding: 35px;
+  display: flex;
 }
