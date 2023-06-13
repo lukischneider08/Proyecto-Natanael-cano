@@ -218,6 +218,7 @@ footer a :hover{
 
 }
 
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -267,7 +268,7 @@ footer a :hover{
 }
 
 
-.maindiscografia audio{
+ audio{
   padding: 35px;
-  display: flex;
+  justify-content: center
 }
